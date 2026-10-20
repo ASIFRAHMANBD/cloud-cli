@@ -1,0 +1,7 @@
+# cloud-cli runtime dependencies.
+#
+# cloud-cli is a thin wrapper around aider-chat: it patches aider's IO,
+# prompts, and message routing at import time, then delegates to
+# `aider.main.main`. Pinned so behaviour matches the version this was
+# developed and tested against.
+aider-chat[playwright]==0.86.2

@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets — never commit these
+.env
+.aider.env
+*.key
+
+# aider session state (per-project, not part of the tool)
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v4/
+
+# Build artifacts
+dist/
+build/
